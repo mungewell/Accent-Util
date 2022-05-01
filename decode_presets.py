@@ -200,6 +200,11 @@ def main():
                 config['patches'][2]['buttons'][button]['enabled'] = 0
                 config['patches'][2]['buttons'][button]['unknown4'] = 3 - button
 
+            # test 4: experiment with unknown4 on Piano type
+            for button in range(0,4):
+                config['patches'][28 + button]['buttons'][0] = \
+                        config['patches'][0]['buttons'][0].copy()
+                config['patches'][28 + button]['buttons'][0]['unknown4'] = button
             new_patch = PATCHES.build(config)
 
             outfile = open(options.outfile, "wb")
