@@ -190,7 +190,7 @@ def main():
 
             # test 3: experiment with unknown4 on patch 2
             # maybe to do with sustain sound??
-            # amidi -p hw:2,0,0 -S "b0 40 7f 90 40 7f" -r - -t 1 ;
+            # amidi -p hw:2,0,0 -S "b0 01 00 b0 40 7f 90 40 7f" -r - -t 1 ;
             # amidi -p hw:2,0,0 -S "80 40 00" -r - -t 5;
             # amidi -p hw:2,0,0 -S "b0 40 00"
             config['patches'][2]['buttons'][0]['part'] = 0
