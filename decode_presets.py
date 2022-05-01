@@ -48,8 +48,34 @@ Faders 1..9(?):
 '''
 
 BUTTON = Struct(
-    "instrument" / Byte,
-    Const(b'\x00\x00\x00'),
+    "instrument" / Enum(Byte,
+        Silent = 0,         # No instrument assigned
+        Piano = 1,
+        E_Piano = 2,
+        MKII_Smth = 3,
+        Clavinet = 4,
+        Cln_Orgn = 5,
+        Ovd_Orgn = 6,
+        String_St = 7,
+        String_Pz = 8,
+        String_Pd = 9,
+        Harmonica = 10,
+        Fls_Bass = 11,
+        E_Bass = 12,
+        Cln_Gtr = 13,
+        Synth_Str = 14,
+        Synth_Ld = 15,
+        Synth_Brs = 16,
+        Synth_Bs = 17,
+        Perc_Pad = 18,
+        Perc_Syn = 19,
+        Drums = 20,
+    ),
+
+    "unknown1" / Byte,
+    "unknown2" / Byte,
+    "unknown3" / Byte,
+
     "colour" / Enum(Byte, 
         lt_green=0, green=1, turquosie=2,
         cyan=3, azure=4, blue=5, purple=6,
@@ -62,9 +88,10 @@ BUTTON = Struct(
     "high-note" / Byte,
     "channel" / Enum(Byte, all=16),
     "cc-num" / Byte,
-    "enabled" / Byte,
+    "enabled" / Byte,   # Only 3 parts should be enabled at one time
 
-    Const(b'\x03'),
+    "unknown4" / Enum(Byte, max=3),
+
     Const(b'\x00\x00\x00\x00'),
 )
 
@@ -137,12 +164,27 @@ def main():
             print(config)
 
         if options.outfile:
-            # test, make all patches the same as patch 0
+            '''
+            # test 1: make all patches the same as patch 0
             for patch in range(1,32):
                 print("cloning to patch %d" % patch)
 
                 config['patches'][patch] = config['patches'][0].copy()
                 config['patches'][patch]['number'] = patch
+
+                config['patches'][patch]['buttons'][0]['unknown'] = patch
+            '''
+            # test 2: fill patch 1 with 1st buttons from other patches
+            config['patches'][1]['name'] = "Everything"
+            for patch in range(2,9):
+                print("cloning from patch %d" % patch)
+
+                config['patches'][1]['buttons'][patch-1] = \
+                        config['patches'][patch]['buttons'][0].copy()
+                config['patches'][1]['buttons'][patch-1]['enabled'] = 0
+
+            for channel in range(0,8):
+                config['patches'][1]['buttons'][channel]['channel'] = channel
 
             new_patch = PATCHES.build(config)
 
