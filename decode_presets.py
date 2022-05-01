@@ -82,8 +82,10 @@ BUTTON = Struct(
         pink=7, rose=8, red=9,
         orange=10, yellow=11, white=12,
     ),
+    "part" / Enum(Byte,
+        part1=0, part2=1, part3=2, auto=3
+    ),
 
-    "part" / Enum(Byte, auto=3),
     "low-note" / Byte,
     "high-note" / Byte,
     "channel" / Enum(Byte, all=16),
@@ -185,6 +187,18 @@ def main():
 
             for channel in range(0,8):
                 config['patches'][1]['buttons'][channel]['channel'] = channel
+
+            # test 3: experiment with unknown4 on patch 2
+            # maybe to do with sustain sound??
+            # amidi -p hw:2,0,0 -S "b0 40 7f 90 40 7f" -r - -t 1 ;
+            # amidi -p hw:2,0,0 -S "80 40 00" -r - -t 5;
+            # amidi -p hw:2,0,0 -S "b0 40 00"
+            config['patches'][2]['buttons'][0]['part'] = 0
+            for button in range(1,4):
+                config['patches'][2]['buttons'][button] = \
+                        config['patches'][2]['buttons'][0].copy()
+                config['patches'][2]['buttons'][button]['enabled'] = 0
+                config['patches'][2]['buttons'][button]['unknown4'] = 3 - button
 
             new_patch = PATCHES.build(config)
 
