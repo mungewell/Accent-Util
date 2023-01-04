@@ -7,20 +7,21 @@ from construct import *
 
 '''
 Patch:
-1f
-^^ Patch 32
-
-50 72 65 73 65 74 20 33 32 00 00 00 00 00 00 
-^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ASCII name
+1f 50 72 65 73 65 74 20 33 32 00 00 00 00 00 00
+   ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ASCII name
+^^ Patch Number = 32
 
 Buttons 1..8:
 00 00 00 00 09 03 00 57 10 08 00 03 00 00 00 00 
+                                 ??
+                              ^^ Enabled
                            ^^ CC
                         ^^ Chn#, 0x10 - All
                      ^^ HiNote?
                   ^^ LoNote
                ^^ Part? (Auto)
             ^^ Colour (Red)
+   ?? ?? ??
 ^^ Instrument : 00 = undefined
 00 00 00 00 09 03 00 57 10 0c 00 03 00 00 00 00 
 00 00 00 00 09 03 00 57 10 0d 00 03 00 00 00 00 
@@ -49,7 +50,7 @@ Faders 1..9(?):
 
 BUTTON = Struct(
     "instrument" / Enum(Byte,
-        Silent = 0,         # No instrument assigned
+        Off = 0,         # No instrument assigned
         Piano = 1,
         E_Piano = 2,
         MKII_Smth = 3,
@@ -70,6 +71,7 @@ BUTTON = Struct(
         Perc_Pad = 18,
         Perc_Syn = 19,
         Drums = 20,
+        # Note: the same instrument can not be used on different buttons
     ),
 
     "unknown1" / Byte,
@@ -92,14 +94,14 @@ BUTTON = Struct(
     "cc-num" / Byte,
     "enabled" / Byte,   # Only 3 parts should be enabled at one time
 
-    "unknown4" / Enum(Byte, max=3),
+    "unknown4" / Enum(Byte, default=3),
 
     Const(b'\x00\x00\x00\x00'),
 )
 
 FADER = Struct(
     "cc-num" / Byte,
-    "channel" / Byte,
+    "channel" / Enum(Byte, all=16),
     "low-val" / Byte,
     "high-val" / Byte,
 
@@ -173,40 +175,32 @@ def main():
 
                 config['patches'][patch] = config['patches'][0].copy()
                 config['patches'][patch]['number'] = patch
-
-                config['patches'][patch]['buttons'][0]['unknown'] = patch
             '''
             # test 2: fill patch 1 with 1st buttons from other patches
-            config['patches'][1]['name'] = "Everything"
-            for patch in range(2,9):
-                print("cloning from patch %d" % patch)
+            config['patches'][31]['name'] = "Everything"
+            for patch in range(0,8):
+                print("cloning from patch %d" % (patch+1))
 
-                config['patches'][1]['buttons'][patch-1] = \
-                        config['patches'][patch]['buttons'][0].copy()
-                config['patches'][1]['buttons'][patch-1]['enabled'] = 0
+                config['patches'][31]['buttons'][patch] = \
+                        config['patches'][patch+1]['buttons'][0].copy()
+                config['patches'][31]['buttons'][patch]['enabled'] = 0
+                config['patches'][31]['buttons'][patch]['channel'] = patch
 
-            for channel in range(0,8):
-                config['patches'][1]['buttons'][channel]['channel'] = channel
+            # test 3: experiment with Unknown1-3 on E-Piano type
+            config['patches'][30]['name'] = "Unknown1-3"
+            for button in range(0,5):
+                config['patches'][30]['buttons'][button] = \
+                        config['patches'][1]['buttons'][0].copy()
 
-            # test 3: experiment with unknown4 on patch 2
-            # maybe to do with sustain sound??
-            # amidi -p hw:2,0,0 -S "b0 01 00 b0 40 7f 90 40 7f" -r - -t 1 ;
-            # amidi -p hw:2,0,0 -S "80 40 00" -r - -t 5;
-            # amidi -p hw:2,0,0 -S "b0 40 00"
-            config['patches'][2]['buttons'][0]['part'] = 0
-            for button in range(1,4):
-                config['patches'][2]['buttons'][button] = \
-                        config['patches'][2]['buttons'][0].copy()
-                config['patches'][2]['buttons'][button]['enabled'] = 0
-                config['patches'][2]['buttons'][button]['unknown4'] = 3 - button
+                config['patches'][30]['buttons'][button]['unknown1'] = button
+                config['patches'][30]['buttons'][button]['unknown2'] = button
+                config['patches'][30]['buttons'][button]['unknown3'] = button
 
-            # test 4: experiment with unknown4 on Piano type
-            for button in range(0,4):
-                config['patches'][28 + button]['buttons'][0] = \
-                        config['patches'][0]['buttons'][0].copy()
-                config['patches'][28 + button]['buttons'][0]['unknown4'] = button
+                config['patches'][30]['buttons'][button]['enabled'] = 0
+                config['patches'][30]['buttons'][button]['part'] = 0
+
+
             new_patch = PATCHES.build(config)
-
             outfile = open(options.outfile, "wb")
 
             outfile.write(data[:options.target])
