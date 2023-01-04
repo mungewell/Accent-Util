@@ -1,0 +1,4962 @@
+Container: 
+    patches = ListContainer: 
+        Container: 
+            number = 0
+            name = u'Piano' (total 5)
+            type = (enum) piano 1
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Piano 1
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 1
+            name = u'E.Piano' (total 7)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) E_Piano 2
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) lt_green 0
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) lt_green 0
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) green 1
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) turquosie 2
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) cyan 3
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) azure 4
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) blue 5
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) purple 6
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 2
+            name = u'MKII Smth' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) MKII_Smth 3
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) green 1
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 3
+            name = u'Clavinet' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Clavinet 4
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) turquosie 2
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 4
+            name = u'Cln Orgn' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Cln_Orgn 5
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) cyan 3
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 5
+            name = u'Ovd Orgn' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Ovd_Orgn 6
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) azure 4
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 6
+            name = u'String St' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) String_St 7
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) blue 5
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 7
+            name = u'String Pz' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) String_Pz 8
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) purple 6
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 8
+            name = u'String Pd' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) String_Pd 9
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) pink 7
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 9
+            name = u'Harmonica' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Harmonica 10
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) rose 8
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 10
+            name = u'Fls Bass' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Fls_Bass 11
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 11
+            name = u'E Bass' (total 6)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) E_Bass 12
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) orange 10
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 12
+            name = u'Cln Gtr' (total 7)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Cln_Gtr 13
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) yellow 11
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 13
+            name = u'Synth Str' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Synth_Str 14
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) lt_green 0
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 14
+            name = u'Synth Ld' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Synth_Ld 15
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) green 1
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 15
+            name = u'Synth Brs' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Synth_Brs 16
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) turquosie 2
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 16
+            name = u'Synth Bs' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Synth_Bs 17
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) cyan 3
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 17
+            name = u'Perc Pad' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Perc_Pad 18
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) azure 4
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 18
+            name = u'Perc Syn' (total 8)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Perc_Syn 19
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) blue 5
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 19
+            name = u'Drums' (total 5)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Drums 20
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) purple 6
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 1
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 20
+            name = u'Preset 21' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) pink 7
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 21
+            name = u'Preset 22' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) rose 8
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 22
+            name = u'Preset 23' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 23
+            name = u'Preset 24' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) orange 10
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 24
+            name = u'Preset 25' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) yellow 11
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 25
+            name = u'Preset 26' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 26
+            name = u'Preset 27' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 27
+            name = u'Preset 28' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 28
+            name = u'Preset 29' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 29
+            name = u'Preset 30' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 30
+            name = u'Preset 31' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+        Container: 
+            number = 31
+            name = u'Preset 32' (total 9)
+            type = (enum) multi 0
+            buttons = ListContainer: 
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 8
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 12
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 13
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 14
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 15
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 16
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 17
+                    enabled = 0
+                    unknown4 = (enum) max 3
+                Container: 
+                    instrument = (enum) Silent 0
+                    unknown1 = 0
+                    unknown2 = 0
+                    unknown3 = 0
+                    colour = (enum) red 9
+                    part = (enum) auto 3
+                    low-note = 0
+                    high-note = 87
+                    channel = (enum) all 16
+                    cc-num = 18
+                    enabled = 0
+                    unknown4 = (enum) max 3
+            faders = ListContainer: 
+                Container: 
+                    cc-num = 19
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 20
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 21
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 22
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 23
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 24
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 25
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 26
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
+                Container: 
+                    cc-num = 27
+                    channel = 16
+                    low-val = 0
+                    high-val = 127
